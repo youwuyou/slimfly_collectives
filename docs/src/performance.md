@@ -38,6 +38,7 @@ The personal goal is to improve the MPI Reduce algorithm on the cluster. The fol
 
 > Followingly we run the benchmarks on 200 nodes performing 100 iterations for which selected size, and use `osu_micro_benchmarks` to measure the performance of the system. We choose the algorithms using the `-mca` switch and specify the wanted algorithms by `-mca coll_tuned_use_dynamic_rules 1 -mca coll_tuned_reduce_algorithm [0~6]` where the number of the already implemented algorithms varies from 0 to 6
 
+
 ```bash
 # the passed flags of the following command does the following
 # i). makes sure that we are running the program using IB
