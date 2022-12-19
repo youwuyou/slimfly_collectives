@@ -1,0 +1,22 @@
+libjenkins_hash_la-jenkins_hash.lo: jenkins_hash.c \
+ /usr/include/stdc-predef.h jenkins_hash.h ../../config.h \
+ /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
+ ../../otflib/OTF_inttypes.h ../../otflib/OTF_inttypes_unix.h \
+ /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h
+/usr/include/stdc-predef.h:
+jenkins_hash.h:
+../../config.h:
+/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h:
+../../otflib/OTF_inttypes.h:
+../../otflib/OTF_inttypes_unix.h:
+/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/features.h:
+/usr/include/sys/cdefs.h:
+/usr/include/bits/wordsize.h:
+/usr/include/gnu/stubs.h:
+/usr/include/gnu/stubs-64.h:
+/usr/include/bits/wchar.h:

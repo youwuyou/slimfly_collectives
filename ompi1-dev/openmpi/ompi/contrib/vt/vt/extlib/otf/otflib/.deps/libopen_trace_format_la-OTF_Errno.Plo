@@ -1,0 +1,33 @@
+libopen_trace_format_la-OTF_Errno.lo: OTF_Errno.c \
+ /usr/include/stdc-predef.h ../config.h OTF_Definitions.h OTF_Version.h \
+ OTF_Errno.h \
+ /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h \
+ /usr/include/stdio.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h
+/usr/include/stdc-predef.h:
+../config.h:
+OTF_Definitions.h:
+OTF_Version.h:
+OTF_Errno.h:
+/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdarg.h:
+/usr/include/stdio.h:
+/usr/include/features.h:
+/usr/include/sys/cdefs.h:
+/usr/include/bits/wordsize.h:
+/usr/include/gnu/stubs.h:
+/usr/include/gnu/stubs-64.h:
+/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stddef.h:
+/usr/include/bits/types.h:
+/usr/include/bits/typesizes.h:
+/usr/include/libio.h:
+/usr/include/_G_config.h:
+/usr/include/wchar.h:
+/usr/include/bits/stdio_lim.h:
+/usr/include/bits/sys_errlist.h:
+/usr/include/bits/stdio.h:

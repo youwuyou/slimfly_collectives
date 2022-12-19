@@ -1,0 +1,29 @@
+# There can be multiple blocks of configuration data, chosen by
+# compiler flags (using the compiler_args key to chose which block
+# should be activated.  This can be useful for multilib builds.  See the
+# multilib page at:
+#    https://svn.open-mpi.org/trac/ompi/wiki/compilerwrapper3264 
+# for more information.
+
+project=Open Run-Time Environment (ORTE)
+project_short=ORTE
+version=1.10.7
+language=C
+compiler_env=CC
+compiler_flags_env=CFLAGS
+compiler=/scratch/dphpc/spack/lib/spack/env/gcc/gcc
+preprocessor_flags=  
+compiler_flags_prefix=
+compiler_flags=-pthread 
+linker_flags=  -Wl,-rpath,/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -Wl,-rpath,/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib64  -Wl,-rpath -Wl,@{libdir} -Wl,--enable-new-dtags
+# Note that per https://svn.open-mpi.org/trac/ompi/ticket/3422, we
+# intentionally always link in open-pal and open-rte in
+# ortecc/ortec++ because we intend ORTE applications to use both the
+# ORTE and OPAL APIs.
+libs=-lopen-rte -lopen-pal
+libs_static=-lopen-rte -lopen-pal -ldl -lrt -lutil -lm 
+dyn_lib_file=libopen-rte.so
+static_lib_file=libopen-rte.a
+required_file=
+includedir=${includedir}
+libdir=${libdir}

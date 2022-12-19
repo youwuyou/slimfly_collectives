@@ -1,0 +1,107 @@
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /hntut7ogtabfpynztcddmf3uk77y7xdy # libiconv@1.16%gcc@12.2.0 build_system=autotools libs=shared,static arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /cex5ny4r5gm5ragkiqirxc3ovosbru5a # libsigsegv@2.13%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /g35noj3bccr4jlnwq2q6oexr3dunxhmj # pkgconf@1.8.0%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /3djm5vrkt6okx3atrsk5lplzykdhlmls # util-macros@1.19.3%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /6vqgcrptcnfdwdx5ozk3z3hduac6rmdj # xz@5.2.7%gcc@12.2.0~pic build_system=autotools libs=shared,static arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /wobwbhgw5ctvw7nfe56ne6fkiowpqq6d # zlib@1.2.13%gcc@12.2.0+optimize+pic+shared build_system=makefile arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /wetv6rk776xx2yf7sabu5u7lirlk2hko # berkeley-db@18.1.40%gcc@12.2.0+cxx~docs+stl build_system=autotools patches=26090f4,b231fcc arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /o6r5zyqfasxtgsq42nhg4hvj37gxdklu # zstd@1.5.2%gcc@12.2.0+programs build_system=makefile compression=none libs=shared,static arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /n2ofdwzuanytuihipjqhsjtj3niq7pni # ca-certificates-mozilla@2022-10-11%gcc@12.2.0 build_system=generic arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/pkgconf-1.8.0-g35noj3bccr4jlnwq2q6oexr3dunxhmj
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/util-macros-1.19.3-3djm5vrkt6okx3atrsk5lplzykdhlmls
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/zstd-1.5.2-o6r5zyqfasxtgsq42nhg4hvj37gxdklu
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /gcnfui7xdedg65wiywp426sfv5sv33dl # ncurses@6.3%gcc@12.2.0~symlinks+termlib abi=none build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/xz-5.2.7-6vqgcrptcnfdwdx5ozk3z3hduac6rmdj
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/zlib-1.2.13-wobwbhgw5ctvw7nfe56ne6fkiowpqq6d
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/libiconv-1.16-hntut7ogtabfpynztcddmf3uk77y7xdy
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /v5aofzotoc7jd6u2p74mkuw7ixidvm2u # pigz@2.7%gcc@12.2.0 build_system=makefile arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/ca-certificates-mozilla-2022-10-11-n2ofdwzuanytuihipjqhsjtj3niq7pni
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /kjpftctth6vju7mry5gg7twfwnycs6ek # diffutils@3.8%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /ceyzwwxfo5grcd2dxdne3d2hwflthuu3 # libxml2@2.10.1%gcc@12.2.0~python build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/libsigsegv-2.13-cex5ny4r5gm5ragkiqirxc3ovosbru5a
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/berkeley-db-18.1.40-wetv6rk776xx2yf7sabu5u7lirlk2hko
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/ncurses-6.3-gcnfui7xdedg65wiywp426sfv5sv33dl
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /7gjgsdopflll4uul5ubmg7ydsifqfyyx # readline@8.1.2%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /habytgc42pmbtwfrf2svj6zsi3n5avtx # libedit@3.1-20210216%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/pigz-2.7-v5aofzotoc7jd6u2p74mkuw7ixidvm2u
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/diffutils-3.8-kjpftctth6vju7mry5gg7twfwnycs6ek
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /cpdzoq73fyup7vumn7adiyxnd6qn4rfb # m4@1.4.19%gcc@12.2.0+sigsegv build_system=autotools patches=9dc5fbd,bfdffa7 arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /pqqh3gsdujmiod66eun6ufkp2hnrxkdq # bzip2@1.0.8%gcc@12.2.0~debug~pic+shared build_system=generic arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/libxml2-2.10.1-ceyzwwxfo5grcd2dxdne3d2hwflthuu3
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/libedit-3.1-20210216-habytgc42pmbtwfrf2svj6zsi3n5avtx
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/readline-8.1.2-7gjgsdopflll4uul5ubmg7ydsifqfyyx
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /p3uu6zk5pf2lugmtthtge7i7msbryy4j # gdbm@1.23%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/m4-1.4.19-cpdzoq73fyup7vumn7adiyxnd6qn4rfb
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/bzip2-1.0.8-pqqh3gsdujmiod66eun6ufkp2hnrxkdq
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /t5jykktymotzby2ltmv2jnl2m46gg56r # libtool@2.4.7%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /3c2dq7a72o4bwtpa4pz6jfgs2msnm7is # tar@1.34%gcc@12.2.0 build_system=autotools zip=pigz arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/gdbm-1.23-p3uu6zk5pf2lugmtthtge7i7msbryy4j
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /qely47duxtdw4q72lfouf2qgcsvvoaar # perl@5.36.0%gcc@12.2.0+cpanm+shared+threads build_system=generic arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/tar-1.34-3c2dq7a72o4bwtpa4pz6jfgs2msnm7is
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/libtool-2.4.7-t5jykktymotzby2ltmv2jnl2m46gg56r
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /j4xisekmqzrbuaoxxzktnrknk5qnbvqq # gettext@0.21.1%gcc@12.2.0+bzip2+curses+git~libunistring+libxml2+tar+xz build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /757hoaf4xgxxbkbhx3s54ahwthukqakx # libpciaccess@0.16%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/perl-5.36.0-qely47duxtdw4q72lfouf2qgcsvvoaar
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /sgaeusgq3zoboboyuiukbsgftlmoqz7y # autoconf@2.69%gcc@12.2.0 build_system=autotools patches=35c4492,7793209,a49dd5b arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /vg3qeif6rgfn5ceaopt4ybw5aoo5titn # bison@3.8.2%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /athnvx5wvvjdlmlkbl4dlctlkbrqoppi # openssl@1.1.1q%gcc@12.2.0~docs~shared build_system=generic certs=mozilla patches=3fdcf2d arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/gettext-0.21.1-j4xisekmqzrbuaoxxzktnrknk5qnbvqq
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/libpciaccess-0.16-757hoaf4xgxxbkbhx3s54ahwthukqakx
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /3yetns36nwzcusjrx5t2sjpi7srgyjas # hwloc@1.11.13%gcc@12.2.0~cairo~cuda~gl~libudev+libxml2~netloc~nvml~oneapi-level-zero~opencl+pci~rocm build_system=autotools libs=shared,static patches=d1d94a4 arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/openssl-1.1.1q-athnvx5wvvjdlmlkbl4dlctlkbrqoppi
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/bison-3.8.2-vg3qeif6rgfn5ceaopt4ybw5aoo5titn
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/autoconf-2.69-sgaeusgq3zoboboyuiukbsgftlmoqz7y
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /cth2l56aqutnnqv4zlq2sr4z4dz6zktq # krb5@1.19.3%gcc@12.2.0+shared build_system=autotools arch=linux-centos7-sandybridge
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /flnc22un4bboiegdckqmgyies6owt3bs # automake@1.16.5%gcc@12.2.0 build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/hwloc-1.11.13-3yetns36nwzcusjrx5t2sjpi7srgyjas
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/automake-1.16.5-flnc22un4bboiegdckqmgyies6owt3bs
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /zdmexq5dwtwjpp5dtflyyfjdsjy3pkqy # numactl@2.0.14%gcc@12.2.0 build_system=autotools patches=4e1d78c,62fc8a8,ff37630 arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/krb5-1.19.3-cth2l56aqutnnqv4zlq2sr4z4dz6zktq
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /562ws4na76fgti6wytft5ndgcg2m2cqs # openssh@9.0p1%gcc@12.2.0+gssapi build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/numactl-2.0.14-zdmexq5dwtwjpp5dtflyyfjdsjy3pkqy
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/openssh-9.0p1-562ws4na76fgti6wytft5ndgcg2m2cqs
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /oo7lpr65mfowkacwvfoviz6jzkh3umhx # openmpi@1.10.7%gcc@12.2.0~atomics~cuda~cxx~cxx_exceptions~gpfs~internal-hwloc~java+legacylaunchers~lustre~memchecker+romio+rsh~singularity~sqlite3+static~thread_multiple+vt+wrapper-rpath build_system=autotools dev_path=/scratch/dphpc/ompi1-dev/openmpi fabrics=auto patches=51e39ef schedulers=none arch=linux-centos7-sandybridge
+==> Installing openmpi-1.10.7-oo7lpr65mfowkacwvfoviz6jzkh3umhx
+==> No binary for openmpi-1.10.7-oo7lpr65mfowkacwvfoviz6jzkh3umhx found: installing from source
+==> Already patched openmpi
+==> openmpi: Executing phase: 'autoreconf'
+==> openmpi: Executing phase: 'configure'
+==> openmpi: Executing phase: 'build'
+==> openmpi: Executing phase: 'install'
+==> openmpi: Successfully installed openmpi-1.10.7-oo7lpr65mfowkacwvfoviz6jzkh3umhx
+  Fetch: 0.00s.  Build: 8m 11.16s.  Total: 8m 11.16s.
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/openmpi-1.10.7-oo7lpr65mfowkacwvfoviz6jzkh3umhx
+spack -e '/scratch/dphpc/ompi1-dev' install   --only-concrete --only=package --no-add /ulcl7gyvl3tsdl4v5tf6xoao2jrl5gg6 # osu-micro-benchmarks@6.2%gcc@12.2.0~cuda~rocm build_system=autotools arch=linux-centos7-sandybridge
+==> Warning: Expected user 1018 to own /tmp/dphpc, but it is owned by 1007
+[+] /scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-12.2.0/osu-micro-benchmarks-6.2-ulcl7gyvl3tsdl4v5tf6xoao2jrl5gg6

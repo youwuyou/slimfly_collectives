@@ -1,0 +1,23 @@
+# There can be multiple blocks of configuration data, chosen by
+# compiler flags (using the compiler_args key to chose which block
+# should be activated.  This can be useful for multilib builds.  See the
+# multilib page at:
+#    https://svn.open-mpi.org/trac/ompi/wiki/compilerwrapper3264 
+# for more information.
+
+project=Open MPI
+project_short=OMPI
+version=1.10.7
+language=Fortran
+compiler_env=FC
+compiler_flags_env=FCFLAGS
+compiler=vtf90
+module_option=-I
+extra_includes=
+preprocessor_flags=
+compiler_flags=-pthread  
+linker_flags=  -Wl,-rpath,/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib/gcc/x86_64-pc-linux-gnu/12.2.0 -Wl,-rpath,/scratch/dphpc/spack/opt/spack/linux-centos7-sandybridge/gcc-4.8.5/gcc-12.2.0-sp6uaabw2owtavpqvaju4z5pdwvphsba/lib64  -Wl,-rpath -Wl,@{libdir} -Wl,--enable-new-dtags
+libs=-lmpi_usempif08 -lmpi_usempi_ignore_tkr -lmpi_mpifh -lmpi -lopen-rte -lopen-pal -ldl -lrt -libverbs -lrdmacm -lutil -lm  -lhwloc
+required_file=
+includedir=${includedir}
+libdir=${libdir}

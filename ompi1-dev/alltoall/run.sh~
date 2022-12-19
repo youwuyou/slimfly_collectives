@@ -1,0 +1,5 @@
+#!/bin/bash
+NODES=21
+SIZE_BYTES=1024
+/scratch/2/t2hx/alltoall/generate_alltoall_schedules.sh ${NODES}
+/scratch/2/t2hx/dep/adaptive_openmpi/bin/mpirun -mca btl_openib_verbose 0 -mca plm_rsh_no_tree_spawn 1 --map-by node -x OMP_NUM_THREADS=1 -x OMP_PROC_BIND=spread -mca btl openib,self -mca btl_openib_if_include mlx4_0 --hostfile /scratch/nblach/custom_pingpong/hosts_combinations/r10betwee1.txt -mca orte_base_help_aggregate 0 -mca btl_openib_ib_path_selection_strategy 0 -mca btl_openib_ib_path_record_service_level 1 -mca btl_openib_max_lmc 0 -mca btl_openib_enable_apm_over_lmc 0 -mca btl_openib_btls_per_lid 1 -mca pml bfo -np ${NODES} /scratch/2/t2hx/alltoall/a.out ${SIZE_BYTES}
