@@ -17,5 +17,5 @@ makedocs(sitename="Slimfly MPI collective optimization",
 	 )
 
 deploydocs(;
-    repo="github.com/youwuyou/slimfly_collective/"
+    repo="github.com/youwuyou/slimfly_collectives/"
 )
